@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    
+  }
+  #logo {
+    height: 80px;
+  }
+  .options {
+    display: flex;
+  }
+  .options > p > a {
+    margin-left: 30px;
+    color: green;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+  }

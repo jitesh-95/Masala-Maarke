@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="icon" href="./logo.png" type="image/x-icon" />
+    <style>
+      #formDiv {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 40%;
+        margin: auto;
+        margin-top: 100px;
+        padding: 2%;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      #username,
+      #password,
+      #name,
+      #email,
+      #desc,
+      #mobile {
+        margin-bottom: 20px;
+        font-size: 20px;
+        width: 60%;
+        padding: 0.5%;
+      }
+      label {
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+      }
+      #submit {
+        font-size: 20px;
+        width: 61%;
+        padding: 5px 30px;
+        background-color: green;
+        border: none;
+        border-radius: 5px;
+        color: white;
+      }
+      #forSignUp {
+        font-size: 20px;
+      }
+      #forSignUp > span > a {
+        text-decoration: none;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar"></div>
+    <form id="formDiv">
+      <label for="name">Name</label> <br />
+      <input type="text" id="name" placeholder="Enter Name" /> <br />
+      <label for="email">Email</label> <br />
+      <input type="text" id="email" placeholder="Email ID" /> <br />
+      <label for="password">Password</label> <br />
+      <input type="password" id="password" placeholder="Password" /> <br />
+      <label for="username">Username</label> <br />
+      <input type="text" id="username" placeholder="Username" /> <br />
+      <label for="mobile">Mobile</label> <br />
+      <input type="number" id="mobile" placeholder="Mobile" /> <br />
+      <label for="desc">Description</label> <br />
+      <input type="text" id="desc" placeholder="Description" /> <br />
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>
+<script src="./scripts/signup.js" type="module"></script>

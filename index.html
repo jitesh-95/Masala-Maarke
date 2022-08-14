@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masala Maarke</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="./logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="./backimage.jpg" alt="" />
+      <h1 id="head">Masala Maarke</h1>
+      <p id="slogan">Always Fresh</p>
+      <div class="options">
+        <p><a id="loginbox" href="./login.html">Login</a></p>
+        <p><a href="./receipeOfDay.html">Recipe of the Day</a></p>
+      </div>
+      <input
+        oninput="debounce(main,2000)"
+        type="text"
+        id="search"
+        placeholder="Search Receipe"
+      />
+    </div>
+    <div class="dish"></div>
+  </body>
+</html>
+<script src="./scripts/index.js"></script>
+<!-- <script>
+  let searchReceipe = async () => {
+    try {
+      let receipe = document.querySelector("#search").value;
+
+      let food_url = `www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata`;
+      let res = await fetch(
+        `www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata`
+      );
+      let data = await res.json();
+      console.log(data);
+    } catch (err) {
+      console.log("err:", err);
+    }
+  };
+</script> -->

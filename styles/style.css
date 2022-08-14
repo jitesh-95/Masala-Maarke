@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lora:wght@500&family=Ms+Madi&family=Poppins:ital,wght@0,200;0,300;0,600;1,700&family=Roboto:wght@300&family=Whisper&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba(238, 232, 232, 0.63);
+}
+.navbar {
+  position: relative;
+  margin-bottom: 50px;
+}
+#head {
+  position: absolute;
+  font-size: 70px;
+  top: 8%;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  font-family: Poppins;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+#slogan {
+  position: absolute;
+  top: 35%;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-family: Ms Madi;
+  font-weight: 500;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+.navbar > img {
+  height: 100%;
+  width: 100%;
+  filter: blur(2px);
+}
+.options {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.options > p > a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.753);
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+#search {
+  position: absolute;
+  left: 25%;
+  top: 65%;
+  width: 50%;
+  font-size: 25px;
+  padding: 0.5%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.671);
+}
+
+/* dish */
+.dish {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1%;
+  box-sizing: border-box;
+  background-color:white;
+  margin-bottom: 100px;
+}
+.details {
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+.dish > img {
+  height: 500px;
+
+  width: 700px;
+}
+.details > p {
+  font-size: 18px;
+  margin-bottom: -10px;
+}
+.details > h2 {
+  text-decoration: underline;
+  color: green;
+}
+.details > h3 {
+  font-size: 22px;
+  color: blue;
+}
+.type,
+.cusine {
+  font-size: 20px;
+  font-weight: 600;
+}
+h3~p{
+  color: green;
+}
+.desc {
+  width: 80%;
+  margin: auto;
+  color: black;
+}
+.link{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  background-color: aquamarine;
+  border-radius: 50px;
+}
+.ingredientDiv{
+  display: flex;
+  justify-content: center;
+}
